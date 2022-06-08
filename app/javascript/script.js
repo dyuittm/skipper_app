@@ -1,7 +1,7 @@
 /* global $*/
-
-let title = "javascriptが使えました";
-alert(title);
+$(function(){
+  alert('jQuery is ready.')
+});
 
 $(document).ready(function () {
   $('.jquery').on('click', function(){
